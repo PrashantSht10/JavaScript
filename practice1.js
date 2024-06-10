@@ -35,3 +35,29 @@ console.log('Teaching the world how to code'.length); //prints 30 as there are 3
 //Methods
 console.log('Codecademy'.toUpperCase()); //prints CODEACADEMY
 console.log('    Remove whitespace   '.trim()); //trim() method removes the whitespace at the beginning and end of the string
+
+//Built-in Objects
+console.log(Math.random()); //generate a number between 0 and 1
+console.log(Math.random() * 100); //generate a number between 0 and 100
+console.log(Math.floor(Math.random() * 100)); //Returns the largest integer less than or equal to the input
+console.log(Math.ceil(43.8)); //Returns the smallest integer greater than or equal to the input
+console.log(Number.isInteger(2017)); //Determines whether the passed value is an integer or not
+
+//Variables
+//Create a Variable: var
+var favoriteFood = 'pizza'; //a string 'pizza' is assigned to a variable named favoriteFood
+var numOfSlices = 8; //8 is assigned to a variable named numOfSlices
+console.log(favoriteFood); //prints pizza 
+console.log(numOfSlices); //prints 8
+
+//Create a Variable: let
+let changeMe = true; //variable called changeMe is set equal to the boolean true
+console.log(changeMe); //prints true
+changeMe = false; //variable called changeMe is set equal to the boolean false
+console.log(changeMe); //prints false
+
+//Create a Variable: const
+const entree = 'Enchiladas'; //a constant variable named entree is set equal to the string 'Enchiladas'
+console.log(entree); //prints Enchiladas
+entree = 'Tacos'; //throws this error = TypeError: Assignment to constant variable, as we cannot reassign a constant variable
+const testing; //throws this error = SyntaxError: Missing initializer in const declaration, as we need to initialize a const variable with a value
