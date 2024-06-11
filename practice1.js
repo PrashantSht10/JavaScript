@@ -59,5 +59,44 @@ console.log(changeMe); //prints false
 //Create a Variable: const
 const entree = 'Enchiladas'; //a constant variable named entree is set equal to the string 'Enchiladas'
 console.log(entree); //prints Enchiladas
-entree = 'Tacos'; //throws this error = TypeError: Assignment to constant variable, as we cannot reassign a constant variable
-const testing; //throws this error = SyntaxError: Missing initializer in const declaration, as we need to initialize a const variable with a value
+//entree = 'Tacos'; //throws this error = TypeError: Assignment to constant variable, as we cannot reassign a constant variable
+//const testing; //throws this error = SyntaxError: Missing initializer in const declaration, as we need to initialize a const variable with a value
+
+//Mathematical Assignment Operators
+let levelUp = 10; //10 is assigned to a variable levelUp
+let powerLevel = 9001; //9001 is assigned to a variable powerLevel
+let multiplyMe = 32; //32 is assigned to a variable multiplyMe
+let quarterMe = 1152; //1152 is assigned to a variable quarterMe
+
+levelUp += 5; //increases the value stored in levelUp by 5
+powerLevel -= 100; //decreases the value stored in powerLevel by 100
+multiplyMe *= 11; //multiplies the value stored in multiplyMe by 11
+quarterMe /= 4; //divides the value stored in quarterMe by 4
+
+console.log('The value of levelUp:', levelUp); //Output: 15
+console.log('The value of powerLevel:', powerLevel); //Output: 8901
+console.log('The value of multiplyMe:', multiplyMe); //Output: 352
+console.log('The value of quarterMe:', quarterMe); //Output: 288
+
+//The Increment and Decrement Operator
+let gainedDollar = 3; //3 is assigned to a variable gainedDollar
+let lostDollar = 50; //50 is assigned to a variable lostDollar 
+gainedDollar++; //increases the value of gainedDollar by 1
+lostDollar--; //decreases the value of lostDollar by 1
+console.log(gainedDollar); //Output: 4
+console.log(lostDollar); //Output: 49
+
+//String Concatenation with Variables
+let favoriteAnimal = 'dog'; //the value 'dog' is assigned to variable favoriteAnimal
+console.log('My favorite animal: ' + favoriteAnimal); //Output: My favorite animal: dog
+
+//String Interpolation
+let myName = 'Prashant'; //the value 'Prashant' is assigned to variable myName
+let myCity = 'Pokhara'; //the value 'Pokhara' is assigned to variable myCity
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`) //Output: My name is Prashant. My favorite city is Pokhara.
+
+//typeof operator
+let newVariable = 'Playing around with typeof.'; //the string inside quotation is assigned to variable newVariable
+console.log(typeof newVariable); //Output: string
+newVariable = 1; //same variable newVariable is reassigned a number 1 
+console.log(typeof newVariable); //Output: number
