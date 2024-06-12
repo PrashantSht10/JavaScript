@@ -11,3 +11,4 @@ console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`); // Output: 
 let newton = celsius * (33 / 100);
 //the value stored in newton variable is rounded
 newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`); // Output: The temperature is 6 degrees Newton.
