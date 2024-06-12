@@ -100,3 +100,4 @@ let newVariable = 'Playing around with typeof.'; //the string inside quotation i
 console.log(typeof newVariable); //Output: string
 newVariable = 1; //same variable newVariable is reassigned a number 1 
 console.log(typeof newVariable); //Output: number
+
