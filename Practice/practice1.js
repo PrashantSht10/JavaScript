@@ -98,6 +98,6 @@ console.log(`My name is ${myName}. My favorite city is ${myCity}.`) //Output: My
 //typeof operator
 let newVariable = 'Playing around with typeof.'; //the string inside quotation is assigned to variable newVariable
 console.log(typeof newVariable); //Output: string
-newVariable = 1; //same variable newVariable is reassigned a number 1 
+newVariable = 2; //same variable newVariable is reassigned a number 2
 console.log(typeof newVariable); //Output: number
 
