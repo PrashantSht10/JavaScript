@@ -118,7 +118,7 @@ let numberClusters = [[1, 2], [3, 4], [5, 6]];
 
 const target = numberClusters[2][1];
 
-console.log(target);
+console.log(target); // prints 6
 
 // Uses the .length property to find the last element of an array
 
@@ -126,4 +126,20 @@ const colors = ['red', 'green', 'blue', 'black'];
 
 const arr = colors[colors.length - 1];
 
-console.log(arr);
+console.log(arr); // prints black
+
+// Take all the elements in an array and make a string
+
+const arr1 = ['Hello', 'World'];
+
+const joined = arr1.join(' ');
+
+console.log(joined); // prints Hello World
+
+// Find the return value of calling .push() on an array
+
+const pushed = colors.push('white');
+
+console.log(colors); ['red', 'green', 'blue', 'black', 'white']
+
+console.log(pushed); // prints 5
